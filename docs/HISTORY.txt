@@ -1,10 +1,23 @@
 Changelog
 =========
 
-1.5.1 (unreleased)
+1.5.2 (unreleased)
 ------------------
 
 - Nothing changed yet.
+
+
+1.5.1 (2015-03-12)
+------------------
+
+- Fix responsive personalbar behavior and margin to other elements.
+  [mathias.leimgruber]
+
+- Navigation portlet: fix error when parent object is not published / not accessible.
+  [jone]
+
+- Show required markers in IE.
+  [msom]
 
 
 1.5.0 (2015-02-24)
