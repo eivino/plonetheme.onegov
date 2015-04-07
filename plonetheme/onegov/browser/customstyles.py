@@ -23,6 +23,7 @@ import time
 CUSTOM_STYLE_OPTIONS = [
     "body-background",
     "body-font-family",
+    "font-size",
     "heading-font-family",
     "heading-line-height",
     "heading-font-size",
