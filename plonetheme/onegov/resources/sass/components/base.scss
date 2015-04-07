@@ -746,6 +746,11 @@ ol {
   color: $text-color-light;
 }
 
+#content .documentDescription, #content #description {
+  font-weight: bold;
+  margin: 1em 0 1em 0;
+}
+
 /* @end */
 
 /* @group below-content viewlet */
