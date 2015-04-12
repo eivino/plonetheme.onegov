@@ -148,6 +148,9 @@
 .contenttype-collection {
   @include icon($char: "F ");
 }
+.contenttype-activity {
+  @include icon($char: "2 ");
+}
 
 /* seantis.dir.base and seantis.dir.contacts */
 .contenttype-seantis-dir-contacts-directory {
