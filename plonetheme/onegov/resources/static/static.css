@@ -1524,6 +1524,13 @@ div.billboardAdDetail {
   content: "2 ";
   white-space: nowrap;
   line-height: 1em; }
+  
+.contenttype-publication:before {
+  font-family: "icomoon";
+  font-size: 1em;
+  content: "? ";
+  white-space: nowrap;
+  line-height: 1em; }
 
 /* only show sprites in factory menu for file and image */
 body.template-create_from_template .contenttype-image:before,

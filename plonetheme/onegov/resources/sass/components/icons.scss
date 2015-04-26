@@ -151,6 +151,9 @@
 .contenttype-activity {
   @include icon($char: "2 ");
 }
+.contenttype-publication {
+  @include icon($char: "? ");
+}
 
 /* seantis.dir.base and seantis.dir.contacts */
 .contenttype-seantis-dir-contacts-directory {
