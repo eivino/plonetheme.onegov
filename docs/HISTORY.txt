@@ -1,7 +1,22 @@
 Changelog
 =========
 
-1.5.2 (unreleased)
+1.5.4 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
+1.5.3 (2015-04-23)
+------------------
+
+- Implement check, if load_flyout_children actually return a flyout navigation.
+  This fixes a possible infinite loop, if load_flyout_children accidentally returns
+  the whole site.
+  [mathias.leimgruber]
+
+
+1.5.2 (2015-04-14)
 ------------------
 
 - Fix a bug which caused the fields of PloneFormGen in quick edit mode to be
