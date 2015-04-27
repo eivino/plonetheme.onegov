@@ -116,7 +116,7 @@ a,
   border-top: 5px solid $global-navigation-border-color;
 }
 #portal-logo {
-  margin: 1.5em 0;
+  margin: 1em 0;
   height: $logo-height;
   display: block;
   float: left;
@@ -816,6 +816,17 @@ body.template-subsite_view h1.documentFirstHeading {
 .topic_listing {
 @include linklist();
 }
+
+/* @end */
+
+/* @group collections listing */
+
+/* img.tileImage {
+  float: right;
+  margin: 2.5em 0 0 1em;
+  max-width:100%;
+}
+*/
 
 /* @end */
 
