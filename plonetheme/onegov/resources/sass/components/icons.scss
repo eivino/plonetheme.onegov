@@ -59,11 +59,13 @@
 .contenttype-poodle {
   @include icon($char: "a ");
 }
+/* Don't display icon for regular pages
 .contenttype-document,
 .contenttype-contentpage,
 .contenttype-page {
   @include icon($char: " ");
 }
+*/
 .contenttype-meeting-item {
   @include icon($char: "K ");
 }
