@@ -41,7 +41,7 @@ h1, h2, h3 {
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   &.documentFirstHeading {
-    margin: 0;
+    margin: 0 0 0.5em 0;
   }
 }
 
