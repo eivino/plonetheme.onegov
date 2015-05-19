@@ -32,7 +32,7 @@ class LoadFlyoutChildren(navigation.UpdateMobileNavigation):
 
     def direct_to_link(self):
         direct_title = '%s %s' % (
-            translate('Direct to', domain="plonetheme.onegov",
+            translate('', domain="plonetheme.onegov",
                       context=self.request).encode('utf8'),
             escape_html(self.context.Title()))
         return '<li class="directLink"><a aria="menuitem" href="{}">{}</a></li>'.format(
