@@ -12,7 +12,7 @@ function close_opened_breadcrumbs(element) {
 
 function valid_response(data) {
   // It's possible that we do no get what we expect.
-  return $(data).is('ul.flyoutChildren');
+  return $(data).is('ul.flyoutChildren') || $(data).is('ul.children');
 }
 
 jQuery(function($) {
@@ -92,18 +92,16 @@ jQuery(function($) {
         data: {breadcrumbs: true},
         success : function(data, textStatus, XMLHttpRequest) {
           if (textStatus === 'success' && valid_response(data)) {
-            if (data.length > 0) {
-              if ($(data).hasClass('children') && $(data).is('ul')) {
-                obj.after('<a href="'+obj.attr('href')+'" class="loadChildren" tabindex="-1">▼</a>');
-                obj.after(data);
-              }
-              else {
-                obj.addClass('noChildren');
-              }
+            if ($(data).hasClass('children') && $(data).is('ul')) {
+              obj.after('<a href="'+obj.attr('href')+'" class="loadChildren" tabindex="-1">▼</a>');
+              obj.after(data);
             }
             else {
               obj.addClass('noChildren');
             }
+          }
+          else {
+            obj.addClass('noChildren');
           }
         }
       });

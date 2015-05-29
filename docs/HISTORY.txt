@@ -1,10 +1,40 @@
 Changelog
 =========
 
-1.5.4 (unreleased)
+1.6.3 (unreleased)
 ------------------
 
 - Nothing changed yet.
+
+
+1.6.2 (2015-05-26)
+------------------
+
+- Yet another bugfix for the breadcrump flyout navigation.
+  The "noChildren" class was missing on elements without children.
+  [mathias.leimgruber]
+
+
+1.6.1 (2015-05-26)
+------------------
+
+- Fix breadcrump flyout navigation.
+  This bug was introduced in 1.5.3.
+
+
+1.6.0 (2015-05-26)
+------------------
+
+- Do not reset the plone app imaging allowed_sizes property.
+  This it not nice!
+
+- Add new filter form mockup. Check `filter.html`.
+  [mathias.leimgruber]
+
+- Move all tabbedview styles to the ftw.tabbedview package.
+  This also includes the print styles for ftw.tabbedview.
+  ftw.tabbedview 3.3.14 is required.
+  [mathias.leimgruber]
 
 
 1.5.3 (2015-04-23)
