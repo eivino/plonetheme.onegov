@@ -269,4 +269,18 @@ body.template-theming-controlpanel {
     margin-bottom: 1em;
   }
 
+/* Display external link icon after link */
+a[target="_blank"]:after,span.link-external a:after,a.external-link:after{
+	font-family:"icomoon";
+	font-size:1em;
+	content:" l";
+	white-space:nowrap;
+	line-height:1em
+}
+
+/* Don't display icon before external links */
+a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
+	content: none;
+}
+
 /* @end */
