@@ -302,5 +302,10 @@ a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
 	content: none;
 }
 
+/* Donate button in header */
+#donate-button-wrapper {
+  position: absolute; right: 0px;
+}
+
 
 /* @end */
