@@ -307,5 +307,16 @@ a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
   position: absolute; right: 0px;
 }
 
+/* Override width of columns from collective.cover */
+#column-content div.width-8 {
+  width: 47%;
+}
+
+/* Tile shadow style from collective.cover */
+.tile-shadow
+{
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
 
 /* @end */
