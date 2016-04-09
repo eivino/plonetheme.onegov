@@ -315,11 +315,19 @@ a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
 /* Tile shadow style from collective.cover */
 .tile-shadow
 {
-  margin-bottom: 10px;
-  margin-right: 10px;
+  padding: 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+ /* margin-right: 10px;*/
 }
 
 /* Header styles for tiles from collective.cover */
+.tile-header h1,
+.tile-content h1,
+.tile-header h2 {
+  margin: 0 0 1em 0;
+}
+
 .tile-header h2,
 .tile-content h2 {
   font-size: 1.3em;
