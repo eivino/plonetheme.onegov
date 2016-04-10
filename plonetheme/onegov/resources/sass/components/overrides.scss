@@ -318,14 +318,22 @@ a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
   padding: 10px;
   margin-top: 14px;
   margin-bottom: 14px;
- /* margin-right: 10px;*/
 }
 
 /* Header styles for tiles from collective.cover */
 .tile-header h1,
 .tile-content h1,
-.tile-header h2 {
-  margin: 0 0 1em 0;
+.tile-content h2
+{
+  margin: 1em 0 0.5em 0;
+}
+
+.tile-content .list-item:first-child h1,
+.cover-richtext-tile:first-child h1,
+.tile-header h1,
+.tile-header h2
+{
+    margin-top: 0;
 }
 
 .tile-header h2,
