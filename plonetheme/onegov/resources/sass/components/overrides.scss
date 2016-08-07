@@ -348,4 +348,13 @@ a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
     padding: 0 5px 0 5px;
 }
 
+/* Override styles from ftw.mobilenavigation */
+/* Fix extra lines under each menu item, which was introduced in "fix" 25 Aug 2015 */
+#slider-container a.slide {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
 /* @end */
