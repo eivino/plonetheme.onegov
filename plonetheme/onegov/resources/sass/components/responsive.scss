@@ -16,7 +16,7 @@ img {
 }
 
 /* show infogram desktop infographics on large screens */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 701px) {
 
   .infogram_infographic_desktop {
     display: block;
@@ -25,7 +25,7 @@ img {
 }
 
 /* show infogram mobile infographics on small screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
   .infogram_infographic_mobile {
     display: block;
