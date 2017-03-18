@@ -8,6 +8,31 @@ img {
   height: auto;
 }
 
+/* hide infogram infographics before displaying to different sizes */
+.infogram_infographic_desktop,
+.infogram_infographic_mobile
+{
+  display: none;
+}
+
+/* show infogram desktop infographics on large screens */
+@media only screen and (min-width: 601px) {
+
+  .infogram_infographic_desktop {
+    display: block;
+  }
+
+}
+
+/* show infogram mobile infographics on small screens */
+@media only screen and (max-width: 600px) {
+
+  .infogram_infographic_mobile {
+    display: block;
+  }
+
+}
+
 /* @end */
 
 /* @group smaller than fixedWidth */
@@ -238,6 +263,10 @@ img {
   #content-core .subsiteColumns .column {
     width: 100%;
     padding: 0;
+  }
+  
+   .infogram_infographic_mobile {
+    display: block;
   }
 
 }
