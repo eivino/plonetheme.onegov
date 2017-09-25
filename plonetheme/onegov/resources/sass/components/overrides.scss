@@ -357,4 +357,245 @@ a[target="_blank"]:before,span.link-external a:before,a.external-link:before{
 }
 
 
+.tile-ifit-center,
+.tile-ifit{
+font-size: 20px;
+line-height: 1.6;
+}
+
+.tile-ifit-video{
+    margin-bottom: 54px
+}
+
+
+.tile-ifit-about.tile img.left{
+padding: 54px 40px 27px 40px;
+margin: 0;
+}
+
+.tile-ifit-center{
+text-align:center;
+
+}
+
+.tile-ifit-about{
+font-size: 16px;
+line-height: 1.625;
+padding: 0 40px;
+
+}
+
+.tile-ifit-small{
+font-size: 16px;
+line-height: 1.625;
+}
+
+.cover-banner-tile img{
+display: table-cell;
+vertical-align: top;
+padding-right: 54px;
+width: 100%;
+height: auto;
+margin-bottom: 0;
+box-sizing: border-box
+}
+
+.tile-ifit ul {
+    padding: 0;
+    list-style: none
+}
+
+.tile-ifit li {
+    font-size: 16px;
+    line-height: 1.6
+}
+
+.b-steps__name {
+    margin-bottom: 10px;
+    color: #931904
+}
+
+@media (min-width: 768px) {
+    .tile-ifit ul {
+        display: table;
+        width: 100%
+    }
+
+   .tile-ifit li {
+        display: table-row;
+        font-size: 20px
+    }
+
+    .b-steps__name {
+        display: table-cell;
+        vertical-align: top;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        white-space: nowrap
+    }
+
+    .b-steps__text {
+        display: table-cell;
+        vertical-align: top;
+        padding-bottom: 20px
+    }
+}
+
+.tile-ifit-center h2,
+.tile-ifit h2{
+margin-bottom: 34px !important;
+font-size: 36px  !important;
+text-align: center;
+
+}
+.tile-ifit-about h2{
+font-size: 24px !important;
+text-align: center;
+
+}
+
+
+.b-hero {
+    position: relative;
+    padding-bottom: 59.05579399141631%;
+    margin-bottom: 27px;
+}
+
+.b-hero__video {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.b-hero video {
+    width: 100%;
+    height: 100%
+}
+
+.b-hero__inner {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 10%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 2.3s, visibility 2.3s;
+}
+
+.b-hero__inner>* {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.b-hero__inner:hover .b-hero__btn {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.b-hero__inner:hover .b-hero__btn .icon-svg {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.b-hero__inner:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("http://ifit-transitions.org/video-bg.jpg") no-repeat top center;
+    background-size: cover;
+    transition: opacity 2.3s
+}
+
+.b-hero__inner--no-bg {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.b-hero__heading {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 1.222222222222222
+}
+
+.b-hero__btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.857142857142857;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: visibility .3s, opacity .3s, text-shadow .3s;
+    cursor: pointer;
+}
+
+.b-hero__btn .icon-svg {
+    margin-right: 13px;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s
+}
+
+@media (max-width: 479px) {
+    .b-hero {
+        margin-left: -20px;
+        margin-right: -20px
+    }
+    .b-hero__inner {
+        padding: 0 20px
+    }
+    .b-hero__heading {
+        margin-bottom: 5px;
+        font-size: 16px
+    }
+    .b-hero__btn {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .b-hero__btn .icon-svg {
+        width: 20px
+    }
+}
+
+@media (min-width: 768px) {
+    .b-hero {
+        margin-bottom: 54px
+    }
+    .b-hero__heading {
+        margin-bottom: 70px;
+        font-size: 36px
+    }
+    .b-hero__inner {
+        padding: 0 14%
+    }
+}
+
+@media (min-width: 1200px) {
+    .b-hero__inner {
+        padding: 0 17.27%
+    }
+}
+
+
+
 /* @end */
