@@ -565,6 +565,10 @@ box-sizing: border-box
   .row-ifit-sponsor .cover-banner-tile img{
     padding: 2em 3em;
   }
+  .tile-ifit-about.tile .cover-banner-tile  img{
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
 
 .tile-ifit-center h2,
