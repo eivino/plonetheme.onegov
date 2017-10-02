@@ -566,8 +566,9 @@ box-sizing: border-box
     padding: 2em 3em;
   }
   .tile-ifit-about.tile .cover-banner-tile  img{
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto;
+    float: none;
   }
 }
 
