@@ -559,9 +559,12 @@ box-sizing: border-box
   }
 
   .cover-banner-tile img{
-    padding: 2em;
+    padding: 2em 0;
   }
 
+  .row-ifit-sponsor .cover-banner-tile img{
+    padding: 2em 3em;
+  }
 }
 
 .tile-ifit-center h2,
