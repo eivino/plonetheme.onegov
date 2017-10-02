@@ -538,6 +538,8 @@ box-sizing: border-box
   #subsite-column-2, #subsite-column-4, #footer-column-2, #footer-column-4{
     margin-left: 0;
     width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;    
   }
 
   #columns{
