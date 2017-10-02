@@ -533,6 +533,13 @@ box-sizing: border-box
     width: 100%;
     clear: none;
   }
+
+  #subsite-column-1, #subsite-column-3, #footer-column-1, #footer-column-3,
+  #subsite-column-2, #subsite-column-4, #footer-column-2, #footer-column-4{
+    margin-left: 0;
+    width: 100%;
+  }
+
   #columns{
   }
   #page-wrapper{
