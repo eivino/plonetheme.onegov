@@ -830,13 +830,6 @@ text-align: center;
   transition: all .4s;
 }
 
-.b-partners__item:nth-child(n+5) {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-  visibility: hidden;
-  opacity: 0
-}
 
 .b-partners__btn {
   padding-top: 37px;
